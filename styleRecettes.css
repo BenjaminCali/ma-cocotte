@@ -1,0 +1,46 @@
+.page-recettes {
+    background-color: #ffffff;
+    background-image: none;
+    border-top: 5px solid #a62d24;
+    color: #171512;
+    min-height: calc(100vh - 80px);
+    padding: 90px 30px;
+}
+
+.page-recettes h1 {
+    text-align: center;
+}
+
+.recettes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.recettes article {
+    background-color: white;
+    border-top: 4px solid #c93b2b;
+    padding: 15px;
+}
+
+.recettes h2 {
+    text-align: center;
+}
+
+.recettes img {
+    width: 100%;
+}
+
+.bouton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c93b2b;
+    color: white;
+    text-decoration: none;
+}
+
+.centre {
+    text-align: center;
+}
