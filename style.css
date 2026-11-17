@@ -1,0 +1,7 @@
+.fond-page {
+    background-color: #ffffff;
+    background-image: none;
+    border-top: 5px solid #a62d24;
+    color: #171512;
+    min-height: calc(100vh - 80px);
+}
